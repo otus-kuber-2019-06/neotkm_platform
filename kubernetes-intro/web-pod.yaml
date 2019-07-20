@@ -1,12 +1,12 @@
 apiVersion: v1
 kind: Pod
 metadata:
-  name: pod-web
+  name: web
   labels:
-    key: value
+    app: web
 spec:
   containers:
-  - name: pod-web
+  - name: web
     image: neotkm/pod-web:v1
     volumeMounts:
     - name: app
