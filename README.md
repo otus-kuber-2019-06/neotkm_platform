@@ -1,4 +1,4 @@
-Выполнено первое домашнее задание.
+###Выполнено первое домашнее задание
 
 Создан Dockerfile для сборки image web сервера  
 Собран image web сервера и размещен на docker hub  
@@ -6,17 +6,17 @@
 В репозиторий добавлены .travis.yml и PULL_REQUEST_TEMPLATE.md  
 
 
-Выполнено второе домашнее задание.  
-  task01
+###Выполнено второе домашнее задание  
+######  task01  
     Создан service account bob и ему назначена роль admin на весь кластер  
     Создан service account dave без доступа к кластеру  
 
-  task02
+######  task02  
     Создан namespace prometheus
     Создан service account carol в namespace prometheus  
     Всем  service account в  namespace prometheus даны права на get / list / watch pod`ов всего кластера  
 
-  task03
+######  task03  
     Создан namespace dev
     Создан service account jane в namespace dev  
     Service account jane в рамках namespace dev назначена роль admin  
